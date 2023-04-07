@@ -1,0 +1,79 @@
+body{
+    background-color: powderblue;
+    
+   } 
+
+    hr{
+      border-style: none;
+      border-top-style:dotted;
+      border-color: brown;
+      border-width: 4px;
+      width: 3%;
+    }
+
+
+   img{
+    opacity: 0;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    -webkit-transition: opacity 30s ease-in-out;
+    -moz-transition: opacity 30s ease-in-out;
+    -o-transition: opacity 30s ease-in-out;
+    -ms-transition: opacity 30s ease-in-out;
+    transition: opacity 30s ease-in-out;height: 150px;
+    border-radius: 100px;
+   
+
+  }
+    h3{ 
+      color:black;
+      
+    }
+    h2{
+        color:black;
+    }
+    h4{
+        color:black;
+    }
+    h5{
+    font-size:  small;
+   }
+
+   input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #0f0f0f; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 12px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */}
+   
+    /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: brown;
+    color: black;
+    padding: 12px 20px;
+    border:2px solid blue;;
+    border-radius: 4px;
+    cursor: pointer;}
+
+    a:link, a:visited {
+      background-color: none;
+      color: black;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 15px;
+    }
+    
+    a:hover, a:active {
+      background-color:brown;
+    }
+  
+    
+  
+  
+    
